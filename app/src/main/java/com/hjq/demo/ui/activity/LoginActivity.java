@@ -42,6 +42,8 @@ public final class LoginActivity extends MyActivity
         implements UmengLogin.OnLoginListener,
         KeyboardWatcher.SoftKeyboardStateListener {
 
+    //测试
+
     @DebugLog
     public static void start(Context context, String phone, String password) {
         Intent intent = new Intent(context, LoginActivity.class);
